@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TheGoodTheBadAndTheUgly</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="select_option">Select an option from the bottom navigation</string>
+</resources>

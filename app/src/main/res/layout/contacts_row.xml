@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/container">
+
+    <ImageView
+        android:id="@+id/imgContact"
+        android:layout_width="74dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="5dp"
+        android:padding="5dp"
+        android:layout_alignParentStart="true"
+        android:src="@android:drawable/star_on" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="71dp"
+        android:orientation="vertical"
+        android:layout_toEndOf="@id/imgContact"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.3"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorPrimary"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.7"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15sp" />
+    </LinearLayout>
+</RelativeLayout>
